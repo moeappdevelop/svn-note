@@ -74,8 +74,7 @@ Subversion 是版本控制工具。
 
    1.svn: E200009: Could not add all targets because some targets are already versioned
    2.解决命令：
-   ```
-   #find . -mindepth 2 -name '.svn' -exec rm -rf '{}'\;
-   ```
-
-#find . -mindepth 2 -name '.svn' -exec rm -rf '{}'\;
+或者
+terminal，cd到你要提交的目录，输入命令：
+find ./ -name .svn        (显示该目录下所有的.svn)文件
+find ./ -name .svn | xargs rm -rf       (删除该目录下所有的.svn)文件
