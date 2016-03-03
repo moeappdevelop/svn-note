@@ -70,3 +70,12 @@ Subversion 是版本控制工具。
 欲取得详细资料，请参阅 http://subversion.apache.org/
 
 ```
+## Probloms;
+
+   1.svn: E200009: Could not add all targets because some targets are already versioned
+   2.解决命令：
+   ```
+   #find . -mindepth 2 -name '.svn' -exec rm -rf '{}'\;
+   ```
+
+#find . -mindepth 2 -name '.svn' -exec rm -rf '{}'\;
