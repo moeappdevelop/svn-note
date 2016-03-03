@@ -76,5 +76,7 @@ Subversion 是版本控制工具。
    2.解决命令：
 或者
 terminal，cd到你要提交的目录，输入命令：
+```
 find ./ -name .svn        (显示该目录下所有的.svn)文件
 find ./ -name .svn | xargs rm -rf       (删除该目录下所有的.svn)文件
+```
