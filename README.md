@@ -83,3 +83,8 @@ terminal，cd到你要提交的目录，输入命令：
 find ./ -name .svn        (显示该目录下所有的.svn)文件
 find ./ -name .svn | xargs rm -rf       (删除该目录下所有的.svn)文件
 ```
+
+## 常用命令
++ 从远程拉去一个分支 svn checkout 远程url
++ 添加所有文件  svn add *
++ 提交文件 svn commit -m "提交说明"
