@@ -73,8 +73,11 @@ Subversion 是版本控制工具。
 ## Probloms;
 
    1.svn: E200009: Could not add all targets because some targets are already versioned
+   
    2.解决命令：
+   
 或者
+
 terminal，cd到你要提交的目录，输入命令：
 ```
 find ./ -name .svn        (显示该目录下所有的.svn)文件
